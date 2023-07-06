@@ -1,0 +1,35 @@
+div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+button{
+    cursor: pointer;
+    background-color: blue;
+    color: gold;
+    border: gold 2px solid;
+    padding: 10px 20px;
+    transition: all 2s;
+}
+button:hover{
+    background-color: aqua;
+    color: chocolate;
+    border-color: chocolate;
+    box-shadow: 5px 5px 10px gray;
+}
+body{
+    background-color: chartreuse;
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color:aqua ;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+    background-color: blue;
+    flex-wrap: wrap; 
+}
